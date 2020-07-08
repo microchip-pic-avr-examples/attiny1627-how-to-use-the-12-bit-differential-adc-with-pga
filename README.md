@@ -2,7 +2,7 @@
 
 # How to Use the 12-Bit Differential ADC with PGA
 
-These code examples show how to use the different modes available when using the 12-bit differential ADC with PGA of the ATtiny1627 microcontroller. The features are explained further in the accompanying tech briefs.
+These code examples show how to use the different modes available when using the 12-bit differential ADC with PGA featured in the ATtiny1627 microcontroller. The features are explained further in the accompanying tech briefs.
 
 ## Related Documentation
 - Technical Briefs:
