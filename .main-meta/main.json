@@ -3,27 +3,27 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.studio.project.",
-        "version": " ",
-        "displayName": "  ",
-        "projectName": "",
-        "shortDescription": "",
+        "name": "com.microchip.mcu8.studio.project.attiny1627-how-to-use-the-12-bit-differential-adc-with-pga",
+        "version": "1.0.1",
+        "displayName": "How to Use the 12-Bit Differential ADC with PGA",
+        "projectName": "attiny1627-how-to-use-the-12-bit-differential-adc-with-pga",
+        "shortDescription": "These code examples show how to use the different modes available when using the 12-bit differential ADC with PGA of the ATtiny1627 microcontroller. The features are explained further in the accompanying tech briefs.",
         "ide": {
-            "name": "",
-            "semverRange": ""
+            "name": "STUDIO",
+            "semverRange": ">= 7.0.2397"
         },
         "compiler": [
 			{
-				"name": "",
-				"semverRange": ""
+				"name": "AVR GCC",
+				"semverRange": "^5.4.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "ATtiny_DFP",
+            "semverRange": "^1.4.310"
         },
         "configurator": {
-            "name": "",
+            "name": "N/A",
             "semverRange": ""
         },
         "device": {
@@ -32,26 +32,51 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "ATtiny1627",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Rupali Honrao",
+
         "subcategories": [
-            "",
             [
-               "Peripherals", ""
+               "Peripherals", "ADC"
             ],
             [
-               "Peripherals", ""
-            ]            			
+               "Peripherals", "RTC"
+            ],
+            [
+                "Peripherals", "EVSYS"
+            ],
+            [
+                "Peripherals", "PIT"
+            ]          			
         ],
         "peripherals": [
-            "",""
+            "ADC","RTC", "PIT", "EVSYS"
         ],
         "keywords": [
-            "",
-            ""			
+            "Programmable Gain Amplifiers",
+            "PGA",
+            "Differential ADC",
+            "12-bit ADC",
+            "Oversampling",
+            "Accumulation Scaling",
+            "Debugger",
+            "Sample Accumulation",
+            "Series Accumulation",
+            "Burst Accumulation",
+            "Power Debugger", 
+            "CDC",
+            "Virtual COM Port",
+            "Data Visualizer",
+            "Curiosity Nano",
+            "Event System",
+            "Periodic Interrupt Timer",
+            "CIP",
+            "Core Independent Peripherals",
+            "Window Compare",
+            "Temperature Sensing"			
         ],
 		"additionalData": {
 			"longDescription": {
